@@ -9,7 +9,7 @@ public class MainApp {
     public static void main(String[] args) {
         try {
             connect();
-            
+            deleteTable();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
